@@ -1,0 +1,54 @@
+
+.task {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    margin-top: 30px;
+    width: 500px;
+    font-size: 90%;
+    font-weight: 900;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(30px);
+    padding: 5px;
+    border-radius: 30px;
+}
+
+.circle {
+    border-radius: 50%;
+    border: 2px solid white;
+    height: 30px;
+    width: 30px;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(30px);
+    border-color: #FFFFFF;
+    margin-right: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.check-mark {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+
+.task-text.completed {
+    text-decoration: line-through;
+    color: rgb(88, 88, 88);
+}
+
+
+
+.task-remove__button {
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-left: auto;
+    order: 2;
+    height: 30px;
+    color: rgb(158, 14, 14);
+    font-weight: 700;
+    padding-top: 5px;
+}
